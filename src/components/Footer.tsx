@@ -58,9 +58,9 @@ export const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-5">Contato</h4>
             <ul className="list-none opacity-70 space-y-4">
-              <li>contato@alliance.com</li>
-              <li>0800 123 4567</li>
-              <li>São Paulo, SP</li>
+              <li>allianceexpressmcz@gmail.com</li>
+              <li>+55 82 8865-6974</li>
+              <li>Maceio, AL</li>
             </ul>
           </div>
         </div>
