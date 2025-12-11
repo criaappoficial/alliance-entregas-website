@@ -20,7 +20,7 @@ export const Header = () => {
           : "bg-transparent py-6"
       }`}
     >
-      <div className="container-custom max-w-[1440px] flex justify-between items-center">
+      <div className="container-custom flex justify-between items-center">
         <div className="flex items-center gap-2 text-2xl font-extrabold text-primary">
           <svg
             width="32"
