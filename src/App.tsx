@@ -3,7 +3,7 @@ import { Hero } from "./components/Hero";
 import { About } from "./components/About";
 import { HowItWorks } from "./components/HowItWorks";
 import { Features } from "./components/Features";
-import { Pricing } from "./components/Pricing";
+// import { Pricing } from "./components/Pricing";
 import { Contact } from "./components/Contact";
 import { Download } from "./components/Download";
 import { Footer } from "./components/Footer";
@@ -18,7 +18,7 @@ function App() {
         <About />
         <HowItWorks />
         <Features />
-        <Pricing />
+        {/* <Pricing /> */}
         <Contact />
         <Download />
       </main>

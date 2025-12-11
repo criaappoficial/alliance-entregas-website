@@ -74,12 +74,14 @@ export const Header = () => {
           >
             Vantagens
           </a>
-          <a
-            href="#pricing"
-            className="font-medium text-dark-text hover:text-primary transition-colors"
-          >
-            Preços
-          </a>
+          {/**
+           * <a
+           *   href="#pricing"
+           *   className="font-medium text-dark-text hover:text-primary transition-colors"
+           * >
+           *   Preços
+           * </a>
+           */}
           <a href="#download" className="btn btn-primary">
             Seja um parceiro
           </a>
@@ -133,13 +135,15 @@ export const Header = () => {
           >
             Vantagens
           </a>
-          <a
-            href="#pricing"
-            className="font-medium text-lg text-dark-text hover:text-primary"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Preços
-          </a>
+          {/**
+           * <a
+           *   href="#pricing"
+           *   className="font-medium text-lg text-dark-text hover:text-primary"
+           *   onClick={() => setMobileMenuOpen(false)}
+           * >
+           *   Preços
+           * </a>
+           */}
           <a
             href="#download"
             className="btn btn-primary text-center"

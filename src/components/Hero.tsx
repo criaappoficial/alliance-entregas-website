@@ -4,7 +4,7 @@ import { AnimatedElements } from "./AnimatedElements";
 
 export const Hero = () => {
   return (
-    <section className="min-h-screen lg:min-h-[900px] flex flex-col lg:flex-row items-center lg:items-end relative overflow-hidden pt-24 lg:pt-0">
+    <section className="min-h-[80vh] md:min-h-screen flex items-center relative overflow-hidden pt-24 md:pt-0">
       {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 z-0"
@@ -19,18 +19,18 @@ export const Hero = () => {
       {/* Animated Elements */}
       <AnimatedElements />
 
-      <div className="container-custom flex flex-col lg:flex-row items-center lg:items-end relative z-10 max-w-[1440px] h-full lg:h-fit w-full">
-        <div className="flex flex-col lg:flex-row justify-between items-center lg:items-end gap-10 lg:gap-20 h-full lg:h-fit w-full">
-          <div className="animate-fade-in mb-10 lg:mb-40 text-center lg:text-left mt-10 lg:mt-0">
+      <div className="container-custom grid grid-cols-1 lg:grid-cols-2 items-center gap-10 relative z-10 max-w-[1440px] w-full">
+        <div className="w-full">
+          <div className="animate-fade-in mb-10 lg:mb-0 text-center lg:text-left mt-10 lg:mt-0">
             <span className="inline-block px-4 py-2 bg-primary text-white rounded-full font-semibold text-sm mb-6">
               🚀 Entregas Rápidas e Seguras
             </span>
-            <h1 className="text-[clamp(32px,5vw,54px)] leading-[1.1] font-extrabold mb-6 text-dark-text">
+            <h1 className="text-[clamp(32px,5.5vw,56px)] leading-[1.1] font-extrabold mb-6 text-dark-text">
               Você foca na venda
               <br />
               <span className="text-primary">nós focamos na entrega!</span>
             </h1>
-            <p className="text-lg text-dark-text/80 mb-10 max-w-[500px] leading-relaxed mx-auto lg:mx-0">
+            <p className="text-lg md:text-xl text-dark-text/80 mb-10 max-w-[600px] leading-relaxed mx-auto lg:mx-0">
               Deixe a lojistica da entrega com a gente e foque no que realmente
               importa para sua loja.
             </p>
@@ -41,24 +41,24 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="animate-fade-in [animation-delay:0.2s] w-full max-w-[400px] lg:max-w-none lg:w-auto">
-            <div
-              className="relative transition-transform duration-300 ease-out transform perspective-1000 rotate-y-[-5deg] hover:rotate-y-0 hover:scale-[1.02]"
-              onMouseMove={(e) => {
-                e.currentTarget.style.transform =
+        </div>
+        <div className="animate-fade-in [animation-delay:0.2s] w-full max-w-[480px] lg:max-w-none lg:w-auto justify-self-center lg:justify-self-end">
+          <div
+            className="relative transition-transform duration-300 ease-out transform perspective-1000 rotate-y-[-5deg] hover:rotate-y-0 hover:scale-[1.02]"
+            onMouseMove={(e) => {
+              e.currentTarget.style.transform =
                   "perspective(1000px) rotateY(0deg) scale(1.02)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform =
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform =
                   "perspective(1000px) rotateY(-5deg)";
-              }}
-            >
-              <img
-                src={heroImage}
-                alt="App de Entregas"
-                className="w-full lg:w-[600px] h-auto block -mb-2"
-              />
-            </div>
+            }}
+          >
+            <img
+              src={heroImage}
+              alt="App de Entregas"
+              className="w-full lg:w-[600px] h-auto block -mb-2"
+            />
           </div>
         </div>
       </div>

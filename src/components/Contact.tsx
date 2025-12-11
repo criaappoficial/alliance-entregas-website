@@ -40,7 +40,12 @@ export const Contact = () => {
               Cadastre seu estabelecimento e aumente suas vendas com nossa
               logística eficiente.
             </p>
-            <a href="#" className="btn btn-primary w-full block">
+            <a
+              href="https://wa.me/558288656974"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary w-full block"
+            >
               Cadastrar Loja
             </a>
           </div>
@@ -71,7 +76,9 @@ export const Contact = () => {
               na sua região.
             </p>
             <a
-              href="#"
+              href="https://forms.gle/QyiLRGWWUN6FaJis9"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn bg-secondary text-white hover:bg-secondary/90 w-full block"
             >
               Cadastrar como Entregador

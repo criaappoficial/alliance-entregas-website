@@ -14,7 +14,9 @@ export const Download = () => {
         <div className="flex justify-center gap-5 flex-wrap">
           {/* Google Play Button */}
           <a
-            href="#"
+            href="https://play.google.com/store/apps/details?id=com.criaapp.alliance_entregas"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2.5 bg-black text-white px-6 py-3 rounded-xl hover:scale-105 transition-transform"
           >
             <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
@@ -28,7 +30,9 @@ export const Download = () => {
 
           {/* App Store Button */}
           <a
-            href="#"
+            href="https://apps.apple.com/br/app/alliance-entregas/id6754856580"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2.5 bg-black text-white px-6 py-3 rounded-xl hover:scale-105 transition-transform"
           >
             <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
