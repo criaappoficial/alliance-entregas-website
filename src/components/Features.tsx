@@ -37,7 +37,7 @@ export const Features = () => {
   ];
 
   return (
-    <section id="features" className="section-padding bg-gradient-subtle">
+    <section id="features" className="section-padding bg-gradient-subtle scroll-mt-24">
       <div className="container-custom">
         <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-16 items-center">
           <div>

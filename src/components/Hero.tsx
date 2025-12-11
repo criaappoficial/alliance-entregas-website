@@ -57,7 +57,7 @@ export const Hero = () => {
             <img
               src={heroImage}
               alt="App de Entregas"
-              className="w-full lg:w-[600px] h-auto block -mb-2"
+              className="w-full lg:w-[600px] h-auto block rounded-3xl shadow-2xl"
             />
           </div>
         </div>

@@ -88,7 +88,7 @@ export const HowItWorks = () => {
   ];
 
   return (
-    <section id="how-it-works" className="section-padding bg-pattern">
+    <section id="how-it-works" className="section-padding bg-pattern scroll-mt-24">
       <div className="container-custom">
         <div className="text-center mb-16">
           <span className="text-primary font-semibold uppercase tracking-widest">

@@ -58,19 +58,19 @@ export const Header = () => {
         <nav className="hidden md:flex gap-8 items-center">
           <a
             href="#about"
-            className="font-medium text-dark-text hover:text-primary transition-colors"
+            className="font-medium text-dark-text hover:text-primary transition-colors hover:underline underline-offset-8 decoration-2 decoration-primary"
           >
             Sobre Nós
           </a>
           <a
             href="#how-it-works"
-            className="font-medium text-dark-text hover:text-primary transition-colors"
+            className="font-medium text-dark-text hover:text-primary transition-colors hover:underline underline-offset-8 decoration-2 decoration-primary"
           >
             Como Funciona
           </a>
           <a
             href="#features"
-            className="font-medium text-dark-text hover:text-primary transition-colors"
+            className="font-medium text-dark-text hover:text-primary transition-colors hover:underline underline-offset-8 decoration-2 decoration-primary"
           >
             Vantagens
           </a>
@@ -116,21 +116,21 @@ export const Header = () => {
         <div className="md:hidden absolute top-full left-0 right-0 bg-white dark:bg-dark-bg border-t border-gray-100 dark:border-gray-800 shadow-lg p-6 flex flex-col gap-4 animate-fade-in">
           <a
             href="#about"
-            className="font-medium text-lg text-dark-text hover:text-primary"
+            className="font-medium text-lg text-dark-text hover:text-primary hover:underline underline-offset-8 decoration-2 decoration-primary"
             onClick={() => setMobileMenuOpen(false)}
           >
             Sobre Nós
           </a>
           <a
             href="#how-it-works"
-            className="font-medium text-lg text-dark-text hover:text-primary"
+            className="font-medium text-lg text-dark-text hover:text-primary hover:underline underline-offset-8 decoration-2 decoration-primary"
             onClick={() => setMobileMenuOpen(false)}
           >
             Como Funciona
           </a>
           <a
             href="#features"
-            className="font-medium text-lg text-dark-text hover:text-primary"
+            className="font-medium text-lg text-dark-text hover:text-primary hover:underline underline-offset-8 decoration-2 decoration-primary"
             onClick={() => setMobileMenuOpen(false)}
           >
             Vantagens

@@ -2,7 +2,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="section-padding bg-white dark:bg-dark-bg relative overflow-hidden"
+      className="section-padding bg-white dark:bg-dark-bg relative overflow-hidden scroll-mt-24"
     >
       {/* Animated Background Elements */}
       <div className="absolute top-10 right-10 opacity-5">
