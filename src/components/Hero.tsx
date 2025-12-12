@@ -7,11 +7,9 @@ export const Hero = () => {
     <section className="min-h-[80vh] md:min-h-screen flex items-center relative overflow-hidden pt-32 md:pt-32">
       {/* Background Image with Overlay */}
       <div
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 bg-cover bg-center lg:bg-top"
         style={{
           backgroundImage: `url(${heroBg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "top",
         }}
       />
       <div className="absolute inset-0 z-0 bg-secondary/95" />
@@ -42,9 +40,9 @@ export const Hero = () => {
           </div>
 
         </div>
-        <div className="animate-fade-in [animation-delay:0.2s] w-full max-w-[460px] lg:max-w-none lg:w-auto justify-self-center lg:justify-self-end mt-8 lg:mt-12">
+        <div className="animate-fade-in [animation-delay:0.2s] w-full max-w-[460px] lg:max-w-none lg:w-auto justify-self-center lg:justify-self-end mt-8 lg:mt-12 mx-auto">
           <div
-            className="relative transition-transform duration-300 ease-out transform perspective-1000 rotate-y-[-5deg] hover:rotate-y-0 hover:scale-[1.02]"
+            className="relative mx-auto transition-transform duration-300 ease-out transform perspective-1000 rotate-y-0 lg:rotate-y-[-5deg] lg:hover:rotate-y-0 lg:hover:scale-[1.02]"
             onMouseMove={(e) => {
               e.currentTarget.style.transform =
                   "perspective(1000px) rotateY(0deg) scale(1.02)";
@@ -57,7 +55,7 @@ export const Hero = () => {
             <img
               src={heroImage}
               alt="App de Entregas"
-              className="w-full lg:w-[520px] h-auto block rounded-3xl shadow-2xl"
+              className="w-full lg:w-[520px] h-auto block rounded-3xl shadow-2xl mx-auto"
             />
           </div>
         </div>
