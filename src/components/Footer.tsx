@@ -17,17 +17,41 @@ export const Footer = () => {
             <h4 className="text-lg font-bold mb-5">Empresa</h4>
             <ul className="list-none opacity-70 space-y-4">
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a
+                  href="#sobre-nos"
+                  className="hover:text-primary transition-colors"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    sessionStorage.setItem("footerScroll", String(window.scrollY));
+                    window.location.hash = "#sobre-nos";
+                  }}
+                >
                   Sobre Nós
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a
+                  href="#carreiras"
+                  className="hover:text-primary transition-colors"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    sessionStorage.setItem("footerScroll", String(window.scrollY));
+                    window.location.hash = "#carreiras";
+                  }}
+                >
                   Carreiras
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a
+                  href="#blog"
+                  className="hover:text-primary transition-colors"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    sessionStorage.setItem("footerScroll", String(window.scrollY));
+                    window.location.hash = "#blog";
+                  }}
+                >
                   Blog
                 </a>
               </li>
@@ -48,7 +72,15 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#cookies" className="hover:text-primary transition-colors">
+                <a
+                  href="#cookies"
+                  className="hover:text-primary transition-colors"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    sessionStorage.setItem("footerScroll", String(window.scrollY));
+                    window.location.hash = "#cookies";
+                  }}
+                >
                   Cookies
                 </a>
               </li>

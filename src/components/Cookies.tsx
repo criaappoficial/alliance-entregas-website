@@ -11,10 +11,10 @@ export const Cookies = () => {
   }, []);
 
   const close = () => {
-    if (window.history && window.history.pushState) {
-      window.history.pushState("", document.title, window.location.pathname + window.location.search);
-    } else {
-      window.location.hash = "";
+    window.location.hash = "";
+    const pos = Number(sessionStorage.getItem("footerScroll") ?? "NaN");
+    if (!Number.isNaN(pos)) {
+      window.scrollTo(0, pos);
     }
     setOpen(false);
   };

@@ -10,6 +10,7 @@ import { Download } from "./components/Download";
 import { Footer } from "./components/Footer";
 import { Cookies } from "./components/Cookies";
 import { ThemeToggle } from "./components/ThemeToggle";
+import { FooterRouter } from "./components/FooterRouter";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Footer />
       <ThemeToggle />
       <Cookies />
+      <FooterRouter />
     </div>
   );
 }
