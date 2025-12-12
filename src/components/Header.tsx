@@ -37,7 +37,7 @@ export const Header = () => {
             }}
             aria-label="Alliance"
           />
-          <span className="leading-none h-14 inline-flex items-center translate-y-[1px]">Alliance</span>
+          <span className="leading-none h-14 inline-flex items-center -translate-y-[2px] md:translate-y-[1px]">Alliance</span>
         </div>
 
         {/* Desktop Nav */}
