@@ -1,5 +1,5 @@
 import heroImage from "../assets/h1-1.webp";
-import heroBg from "../assets/movel-com-mapas-google.webp";
+import heroBg from "../assets/hero-image.png";
 import { AnimatedElements } from "./AnimatedElements";
 
 export const Hero = () => {
