@@ -48,7 +48,7 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a href="#cookies" className="hover:text-primary transition-colors">
                   Cookies
                 </a>
               </li>

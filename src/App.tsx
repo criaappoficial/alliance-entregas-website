@@ -8,6 +8,7 @@ import { Contact } from "./components/Contact";
 import { CourierBenefits } from "./components/CourierBenefits";
 import { Download } from "./components/Download";
 import { Footer } from "./components/Footer";
+import { Cookies } from "./components/Cookies";
 import { ThemeToggle } from "./components/ThemeToggle";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       </main>
       <Footer />
       <ThemeToggle />
+      <Cookies />
     </div>
   );
 }
