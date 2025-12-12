@@ -40,7 +40,7 @@ export const Hero = () => {
           </div>
 
         </div>
-        <div className="animate-fade-in [animation-delay:0.2s] w-full max-w-[460px] lg:max-w-none lg:w-auto justify-self-center lg:justify-self-end mt-8 lg:mt-12 mx-auto">
+        <div className="animate-fade-in [animation-delay:0.2s] w-full max-w-[520px] lg:max-w-none lg:w-auto justify-self-center lg:justify-self-end mt-6 lg:mt-10 mx-auto">
           <div
             className="relative mx-auto transition-transform duration-300 ease-out transform perspective-1000 rotate-y-0 lg:rotate-y-[-5deg] lg:hover:rotate-y-0 lg:hover:scale-[1.02]"
             onMouseMove={(e) => {
@@ -55,8 +55,9 @@ export const Hero = () => {
             <img
               src={heroImage}
               alt="App de Entregas"
-              className="w-full lg:w-[520px] h-auto block rounded-3xl shadow-2xl mx-auto"
+              className="w-full lg:w-[600px] h-auto block rounded-3xl shadow-2xl mx-auto"
             />
+            <div className="absolute left-0 right-0 bottom-0 h-24 md:h-28 bg-gradient-to-t from-black/60 via-transparent to-transparent rounded-b-3xl" />
           </div>
         </div>
       </div>

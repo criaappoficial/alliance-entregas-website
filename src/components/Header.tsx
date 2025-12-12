@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import imgLogo from "../assets/img-logo.png";
 
 export const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -22,36 +23,21 @@ export const Header = () => {
     >
       <div className="container-custom flex justify-between items-center">
         <div className="flex items-center gap-2 text-2xl font-extrabold text-primary">
-          <svg
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12 2L2 7L12 12L22 7L12 2Z"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M2 17L12 22L22 17"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M2 12L12 17L22 12"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-          <span>Alliance</span>
+          <div
+            className="w-12 h-12 bg-[currentColor] shrink-0"
+            style={{
+              WebkitMaskImage: `url(${imgLogo})`,
+              maskImage: `url(${imgLogo})`,
+              WebkitMaskRepeat: "no-repeat",
+              maskRepeat: "no-repeat",
+              WebkitMaskSize: "contain",
+              maskSize: "contain",
+              WebkitMaskPosition: "center",
+              maskPosition: "center",
+            }}
+            aria-label="Alliance"
+          />
+          <span className="leading-none h-12 inline-flex items-center translate-y-[3px]">Alliance</span>
         </div>
 
         {/* Desktop Nav */}
