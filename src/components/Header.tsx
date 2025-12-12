@@ -24,7 +24,7 @@ export const Header = () => {
       <div className="container-custom flex justify-between items-center">
         <div className="flex items-center gap-2 text-2xl font-extrabold text-primary h-14">
           <div
-            className="w-14 h-14 bg-[currentColor] shrink-0 transform -translate-y-[3px]"
+            className="w-14 h-14 bg-[currentColor] shrink-0 transform -translate-y-[4px]"
             style={{
               WebkitMaskImage: `url(${imgLogo})`,
               maskImage: `url(${imgLogo})`,
@@ -37,7 +37,7 @@ export const Header = () => {
             }}
             aria-label="Alliance"
           />
-          <span className="leading-none px-1 h-14 inline-flex items-center translate-y-[1px]">Alliance</span>
+          <span className="leading-none h-14 inline-flex items-center translate-y-[1px]">Alliance</span>
         </div>
 
         {/* Desktop Nav */}
