@@ -22,9 +22,9 @@ export const Header = () => {
       }`}
     >
       <div className="container-custom flex justify-between items-center">
-        <div className="flex items-center gap-2 text-2xl font-extrabold text-primary">
+        <div className="flex items-center gap-2 text-2xl font-extrabold text-primary h-14">
           <div
-            className="w-12 h-12 bg-[currentColor] shrink-0"
+            className="w-14 h-14 bg-[currentColor] shrink-0 transform -translate-y-[3px]"
             style={{
               WebkitMaskImage: `url(${imgLogo})`,
               maskImage: `url(${imgLogo})`,
@@ -37,26 +37,26 @@ export const Header = () => {
             }}
             aria-label="Alliance"
           />
-          <span className="leading-none h-12 inline-flex items-center translate-y-[3px]">Alliance</span>
+          <span className="leading-none px-1 h-14 inline-flex items-center translate-y-[1px]">Alliance</span>
         </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex gap-8 items-center">
+        <nav className="hidden md:flex gap-8 items-center h-14">
           <a
             href="#about"
-            className="relative font-medium text-dark-text transition-colors hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
+            className="inline-flex items-center h-full relative font-medium text-dark-text transition-colors hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
           >
             Sobre Nós
           </a>
           <a
             href="#how-it-works"
-            className="relative font-medium text-dark-text transition-colors hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
+            className="inline-flex items-center h-full relative font-medium text-dark-text transition-colors hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
           >
             Como Funciona
           </a>
           <a
             href="#features"
-            className="relative font-medium text-dark-text transition-colors hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
+            className="inline-flex items-center h-full relative font-medium text-dark-text transition-colors hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
           >
             Vantagens
           </a>
@@ -68,7 +68,7 @@ export const Header = () => {
            *   Preços
            * </a>
            */}
-          <a href="#download" className="btn btn-primary">
+          <a href="#download" className="btn btn-primary inline-flex items-center h-14">
             Seja um parceiro
           </a>
         </nav>
