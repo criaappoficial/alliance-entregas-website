@@ -41,7 +41,7 @@ export const Contact = () => {
               logística eficiente.
             </p>
             <a
-              href="https://wa.me/558288656974"
+              href="https://wa.me/558293552525"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary w-full block"
