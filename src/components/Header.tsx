@@ -22,7 +22,21 @@ export const Header = () => {
       }`}
     >
       <div className="container-custom flex justify-between items-center">
-        <div className="flex items-center gap-2 text-2xl font-extrabold text-primary h-14">
+        <a
+          href="#home"
+          className="flex items-center gap-2 text-2xl font-extrabold text-primary h-14"
+          onClick={(e) => {
+            e.preventDefault();
+            if (window.history && window.history.pushState) {
+              window.history.pushState("", document.title, window.location.pathname + window.location.search);
+            } else {
+              window.location.hash = "";
+            }
+            window.scrollTo({ top: 0, behavior: "smooth" });
+            setMobileMenuOpen(false);
+          }}
+          aria-label="Ir para Home"
+        >
           <div
             className="w-14 h-14 bg-[currentColor] shrink-0 transform -translate-y-[4px]"
             style={{
@@ -38,7 +52,7 @@ export const Header = () => {
             aria-label="Alliance"
           />
           <span className="leading-none h-14 inline-flex items-center -translate-y-[2px] md:translate-y-[1px]">Alliance</span>
-        </div>
+        </a>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-8 items-center h-14">
