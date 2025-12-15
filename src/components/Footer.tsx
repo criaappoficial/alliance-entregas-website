@@ -11,6 +11,34 @@ export const Footer = () => {
               Conectando bairros, entregando agilidade. A melhor solução de
               logística local para o seu negócio.
             </p>
+            <div className="flex gap-4 mt-4">
+              <a
+                href="https://www.instagram.com/allianceentregasofc/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors flex items-center justify-center shrink-0"
+                aria-label="Instagram"
+              >
+                <img
+                  src="https://cdn.simpleicons.org/instagram/FF7D44?viewbox=auto&size=20"
+                  alt="Instagram"
+                  className="w-5 h-5"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors flex items-center justify-center shrink-0"
+                aria-label="YouTube"
+              >
+                <img
+                  src="https://cdn.simpleicons.org/youtube/FF7D44?viewbox=auto&size=20"
+                  alt="YouTube"
+                  className="w-5 h-5"
+                />
+              </a>
+            </div>
           </div>
 
           <div>
@@ -62,12 +90,22 @@ export const Footer = () => {
             <h4 className="text-lg font-bold mb-5">Legal</h4>
             <ul className="list-none opacity-70 space-y-4">
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a
+                  href="https://lanselmo.github.io/allianceentregas/termosdeusoallianceentregas.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
                   Termos de Uso
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a
+                  href="https://lanselmo.github.io/allianceentregas/termosdeusoallianceentregas.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
                   Privacidade
                 </a>
               </li>
