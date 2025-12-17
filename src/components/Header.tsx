@@ -38,7 +38,7 @@ export const Header = () => {
           aria-label="Ir para Home"
         >
           <div
-            className="w-14 h-14 bg-[currentColor] shrink-0 transform -translate-y-[4px]"
+            className="w-14 h-14 bg-[currentColor] shrink-0 transform -translate-y-[6px] md:-translate-y-[6px]"
             style={{
               WebkitMaskImage: `url(${imgLogo})`,
               maskImage: `url(${imgLogo})`,
@@ -51,7 +51,7 @@ export const Header = () => {
             }}
             aria-label="Alliance"
           />
-          <span className="leading-none h-14 inline-flex items-center -translate-y-[2px] md:translate-y-[1px]">Alliance</span>
+          <span className="leading-none h-14 inline-flex items-center -translate-y-[4px] md:-translate-y-[2px]">Alliance</span>
         </a>
 
         {/* Desktop Nav */}
