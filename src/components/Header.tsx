@@ -24,7 +24,7 @@ export const Header = () => {
       <div className="container-custom flex justify-between items-center">
         <a
           href="#home"
-          className="flex items-center gap-2 text-2xl font-extrabold text-primary h-14"
+          className="flex items-center gap-2 text-2xl font-extrabold text-primary h-14 -ml-3"
           onClick={(e) => {
             e.preventDefault();
             if (window.history && window.history.pushState) {
