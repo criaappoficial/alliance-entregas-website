@@ -38,7 +38,7 @@ export const Header = () => {
           aria-label="Ir para Home"
         >
           <div
-            className="w-14 h-14 bg-[currentColor] shrink-0 transform -translate-y-[6px] md:-translate-y-[6px]"
+            className="w-14 h-14 bg-[currentColor] shrink-0 transform -translate-y-[6px] md:-translate-y-[7px]"
             style={{
               WebkitMaskImage: `url(${imgLogo})`,
               maskImage: `url(${imgLogo})`,
