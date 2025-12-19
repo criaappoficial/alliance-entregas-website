@@ -74,7 +74,7 @@ export const Hero = () => {
             <div className="absolute left-0 right-0 bottom-0 h-24 md:h-28 bg-gradient-to-t from-black/60 via-transparent to-transparent rounded-b-3xl" />
 
             {/* Floating Card 1: Active Delivery */}
-            <div className="absolute bottom-8 -left-4 md:bottom-12 md:-left-12 bg-white/90 backdrop-blur-md border border-white/20 p-4 rounded-2xl shadow-2xl flex items-center gap-3 animate-float max-w-[200px] md:max-w-none transform transition-all hover:scale-105 z-20">
+            <div className="absolute bottom-8 left-0 md:bottom-12 md:-left-12 bg-white/90 backdrop-blur-md border border-white/20 p-4 rounded-2xl shadow-2xl flex items-center gap-3 animate-float max-w-[200px] md:max-w-none transform transition-all hover:scale-105 z-20">
               <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white shadow-lg shadow-primary/30 shrink-0">
                 <svg
                   width="20"
@@ -86,10 +86,11 @@ export const Hero = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4 1l-2.7 9c-.2.6.3 1.3.9 1.3h1.1" />
-                  <circle cx="6" cy="17" r="2" />
-                  <circle cx="18" cy="17" r="2" />
-                  <path d="M15 17h1" />
+                  <circle cx="18.5" cy="17.5" r="3.5" />
+                  <circle cx="5.5" cy="17.5" r="3.5" />
+                  <path d="M15 6h5l3 5v6h-2" />
+                  <path d="M9 17h6" />
+                  <path d="M12 12L8 6H2v4h3l2 5" />
                 </svg>
               </div>
               <div>
