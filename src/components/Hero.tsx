@@ -38,13 +38,13 @@ export const Hero = () => {
             <div className="flex gap-4 flex-wrap justify-center lg:justify-start">
               <a
                 href="#download"
-                className="btn btn-primary text-lg px-8 py-4 rounded-xl shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all duration-300 hover:-translate-y-1"
+                className="btn btn-primary text-base px-6 py-3 rounded-xl shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all duration-300 hover:-translate-y-1 w-full sm:w-auto"
               >
                 Começar Agora
               </a>
               <a
                 href="#how-it-works"
-                className="btn bg-white/10 text-white border border-white/10 hover:bg-white/20 backdrop-blur-sm px-8 py-4 rounded-xl transition-all duration-300"
+                className="btn bg-white/10 text-white border border-white/10 hover:bg-white/20 backdrop-blur-sm px-6 py-3 rounded-xl transition-all duration-300 w-full sm:w-auto"
               >
                 Como Funciona
               </a>
@@ -103,7 +103,7 @@ export const Hero = () => {
             </div>
 
             {/* Floating Card 2: 5 Stars */}
-            <div className="absolute top-12 -right-4 md:top-20 md:-right-8 bg-white/90 backdrop-blur-md border border-white/20 py-2 px-4 rounded-full shadow-xl flex items-center gap-2 animate-float-delayed transform transition-all hover:scale-105 z-20">
+            <div className="absolute top-12 right-0 md:top-20 md:-right-8 bg-white/90 backdrop-blur-md border border-white/20 py-2 px-4 rounded-full shadow-xl flex items-center gap-2 animate-float-delayed transform transition-all hover:scale-105 z-20">
               <div className="flex gap-0.5">
                 {[1, 2, 3, 4, 5].map((_, i) => (
                   <svg

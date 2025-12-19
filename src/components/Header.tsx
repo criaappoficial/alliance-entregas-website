@@ -38,7 +38,7 @@ export const Header = () => {
           aria-label="Ir para Home"
         >
           <div
-            className="w-14 h-14 bg-[currentColor] shrink-0 transform -translate-y-[6px] md:-translate-y-[7px]"
+            className="w-14 h-14 bg-[currentColor] shrink-0 transform -translate-y-[5px] md:-translate-y-[7px]"
             style={{
               WebkitMaskImage: `url(${imgLogo})`,
               maskImage: `url(${imgLogo})`,
@@ -51,7 +51,7 @@ export const Header = () => {
             }}
             aria-label="Alliance"
           />
-          <span className="leading-none h-14 inline-flex items-center -translate-y-[4px] md:-translate-y-[2px]">Alliance</span>
+          <span className="leading-none h-14 inline-flex items-center translate-y-0 md:-translate-y-[1px]">Alliance</span>
         </a>
 
         {/* Desktop Nav */}
@@ -116,21 +116,21 @@ export const Header = () => {
         <div className="md:hidden absolute top-full left-0 right-0 bg-white dark:bg-dark-bg border-t border-gray-100 dark:border-gray-800 shadow-lg p-6 flex flex-col gap-4 animate-fade-in">
           <a
             href="#about"
-            className="relative font-medium text-lg text-dark-text hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
+            className="relative font-medium text-lg text-black dark:text-white hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
             onClick={() => setMobileMenuOpen(false)}
           >
             Sobre Nós
           </a>
           <a
             href="#how-it-works"
-            className="relative font-medium text-lg text-dark-text hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
+            className="relative font-medium text-lg text-black dark:text-white hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
             onClick={() => setMobileMenuOpen(false)}
           >
             Como Funciona
           </a>
           <a
             href="#features"
-            className="relative font-medium text-lg text-dark-text hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
+            className="relative font-medium text-lg text-black dark:text-white hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
             onClick={() => setMobileMenuOpen(false)}
           >
             Vantagens
