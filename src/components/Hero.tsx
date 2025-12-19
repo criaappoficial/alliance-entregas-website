@@ -4,7 +4,7 @@ import { AnimatedElements } from "./AnimatedElements";
 
 export const Hero = () => {
   return (
-    <section className="min-h-[80vh] md:min-h-screen flex items-center relative overflow-hidden pt-32 md:pt-32">
+    <section className="min-h-[80vh] md:min-h-screen flex items-center relative overflow-hidden pt-28 md:pt-28">
       {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center lg:bg-top"
@@ -24,10 +24,10 @@ export const Hero = () => {
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
               Entregas Rápidas e Seguras
             </span>
-            <h1 className="text-[clamp(40px,6vw,64px)] leading-[1.1] font-extrabold mb-8 text-white tracking-tight">
-              <span className="block whitespace-nowrap">Você foca na venda</span>
-              <span className="block whitespace-nowrap">nós focamos na</span>
-              <span className="block whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#ff8f00]">
+            <h1 className="text-[clamp(32px,6vw,64px)] leading-[1.1] font-extrabold mb-8 text-white tracking-tight">
+              <span className="block md:whitespace-nowrap">Você foca na venda</span>
+              <span className="block md:whitespace-nowrap">nós focamos na</span>
+              <span className="block md:whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#ff8f00]">
                 entrega!
               </span>
             </h1>
