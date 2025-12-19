@@ -5,6 +5,7 @@ import { HowItWorks } from "./components/HowItWorks";
 import { Features } from "./components/Features";
 // import { Pricing } from "./components/Pricing";
 import { Contact } from "./components/Contact";
+import { Support } from "./components/Support";
 import { CourierBenefits } from "./components/CourierBenefits";
 import { Download } from "./components/Download";
 import { Footer } from "./components/Footer";
@@ -22,6 +23,7 @@ function App() {
         <HowItWorks />
         <Features />
         <Contact />
+        <Support />
         <CourierBenefits />
         <Download />
       </main>

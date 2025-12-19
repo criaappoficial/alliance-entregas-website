@@ -74,6 +74,13 @@ export const Header = () => {
           >
             Vantagens
           </a>
+          <a
+            href="#support"
+            className="inline-flex items-center h-full relative font-medium text-dark-text transition-colors hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
+          >
+            SAC
+          </a>
+          <span className="text-gray-300 dark:text-gray-600">|</span>
           {/**
            * <a
            *   href="#pricing"
@@ -134,6 +141,13 @@ export const Header = () => {
             onClick={() => setMobileMenuOpen(false)}
           >
             Vantagens
+          </a>
+          <a
+            href="#support"
+            className="relative font-medium text-lg text-black dark:text-white hover:text-primary after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-primary after:w-0 hover:after:w-full after:transition-all after:duration-300"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            SAC
           </a>
           {/**
            * <a
