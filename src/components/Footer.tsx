@@ -129,7 +129,7 @@ export const Footer = () => {
             <h4 className="text-lg font-bold mb-5">Contato</h4>
             <ul className="list-none opacity-70 space-y-4">
               <li>allianceexpressmcz@gmail.com</li>
-              <li>+55 82 99355-2525</li>
+              <li>82 +55 99355-2525</li>
               <li>Maceio, AL</li>
             </ul>
           </div>
